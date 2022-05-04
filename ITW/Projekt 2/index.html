@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>My Resume - project</title>
+
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#section-topbar a").on('click', function(event) {
+    
+        if (this.hash !== "") {
+    
+          event.preventDefault();
+    
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 500, function(){
+    
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+    </script>
+</head>
+
+<body>
+   <div id="section-topbar">
+    <div id="topbar-inner">
+      <a href="http://www.stud.fit.vutbr.cz/~xrezni28/index.html"><img src="img/mylogo.png"/></a>
+            <ul id="nav" class="nav">
+              <li><a href="#header" title="Home">Home</a></li>
+              <li><a href="#about" title="About">About</a></li>
+              <li><a href="#resume" title="Resume">Resume</a></li>
+              <li><a href="#contact" title="Contact">Contact</a></li>
+            </ul>
+    </div>
+  </div>
+
+  <div id="header">
+          <h1>Michal Řezník</h1>
+          <img src="img/facee.webp"/>
+          <h3>IT Student | xrezni28</h3>
+  </div>
+
+
+  <section id="about">
+    <div id="intro">
+      <div class="container">
+
+            <h5>ABOUT ME</h5>
+          <div class="lorem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Nulla eget orci sit amet ipsum volutpat volutpat. Duis 
+               quis enim porttitor, luctus ex ac, pretium libero. Donec 
+               laoreet justo diam, at consectetur quam tincidunt et. 
+               Ut quis volutpat nulla. Nulla non tortor a velit commodo 
+               suscipit ut at tortor. Maecenas eu ante ac erat iaculis 
+               elementum. Donec suscipit, metus eu molestie elementum, 
+               augue dui laoreet ex, a semper felis nulla eget leo. 
+               Nulla egestas lorem id velit feugiat lacinia.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="resume">
+        <div class=education>
+          <h5>EDUCATION</h5>
+            <p>Information Technology</p><h4>Brno University of Technology</h4>
+          <p>
+            IN PROGRESS
+          </p>
+        </div>
+        <div class=works>
+          <h5>WORKS</h5>
+            <p>No works for me</p><h4>Full time studying</h4>
+        </div>
+      </section>
+      <section id="sills"> 
+  <div id="skillswrap">
+          <h5>SKILLS</h5>
+        <div class="C">
+          <img src="img/clogo.png"/>
+          <h5>C/C++</h5>
+          <p>Intermediate</p>
+        </div>
+        <div class="Python">
+          <img src="img/pythonlogo.dms"/>
+          <h5>Python</h5>
+          <p>Advanced</p>
+        </div>
+        <div class="PHP">
+          <img src="img/phplogo.dms"/>
+          <h5>PHP</h5>
+          <p>Beginner</p>
+        </div>
+        <div class="HTML">
+          <img src="img/htmllogo.png"/>
+          <h5>HTML&CSS</h5>
+          <p>Beginner</p>
+        </div>
+        <div class="Bash">
+          <img src="img/phplogo.png"/>
+          <h5>Bash</h5>
+          <p>Advanced</p>
+        </div>
+  </div>
+</section>
+
+
+
+  <section id="work">
+    <div class="interests">
+      <div class="row">
+          <h5>INTERESTS</h5>
+      </div>
+      <div class = "florval">
+          <h5>FLOORBALL</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+        <div class="col-lg-3">
+          <h5>HOCKEY</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+
+        <div class="col-lg-3">
+          <h5>GAMING</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div id="footwrap">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-2">
+            <h5>CONTACT</h5>
+          </div>
+          <div class="col-lg-4">
+            <p>Adress:</p><br/> Capital street 123 <br/> Postal: 24366 <br/> Czech, Brno. <br/>
+            <p>Phone : +420 123 234 345</p>
+              <h5>Social links</h5>
+          </div>
+          <div class ="socials">
+              <a href="https://www.facebook.com"><img src="img/facebooklogo.webp"></a>
+              <a href="https://www.instagram.com"><img src="img/instagramlogo.png"></a>
+              <a href="https://cz.linkedin.com"><img src="img/linkedinlogo.png"></a>
+              <a href="mailto: myemail@gmail.com"><img src="img/gmaillogo.png"></a>
+              <a href="https://twitter.com"><img src="img/twitterlogo.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

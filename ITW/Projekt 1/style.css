@@ -1,0 +1,360 @@
+
+
+.content{
+    margin:auto;
+    max-width: 1200px;
+    min-width: 768;
+    overflow: hidden;
+}
+#navigation{
+    top: 0px;
+    font-family: Montserrat;
+}
+
+#nav-logo a{  
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: Montserrat;
+    margin-right: 380px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 1200px) {
+  #nav-logo a{  
+    font-size: 25px;
+    margin-right: 480px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #nav-logo a{  
+    font-size: 25px;
+    margin-right: 270px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #nav-logo a{  
+    font-size: 20px;
+    margin-right: 215px;
+  }
+}
+
+
+#navigation li {
+    float: right;
+  }
+#navigation li a {
+    font-family: Montserrat;
+    display: block;
+    color: #bfbfbf ;
+    font-size:15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+@media only screen and (max-width: 1200px) {
+  #navigation li a {
+    font-size:15px;
+    padding: 5px 10px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #navigation li a {
+    font-size:12px;
+    padding: 5px 10px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #navigation li a {
+    font-size:10px;
+    padding: 5px 10px;
+  }
+}
+#navigation li a:hover{ 
+  color:black;
+} 
+#navigation ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#header h1{
+  font-family: Montserrat;
+  margin-top: -55px;
+  margin-left: 10px;
+  font-weight: normal;
+  color: white;
+
+}
+#about h2{
+  font-family: Montserrat;
+  font-weight: normal;
+  margin:auto;
+  font-size: 40px;
+  color: #4d4d4d ;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+#about p{
+  text-align: center;
+  font-family: Merriweather;
+  color:#898989;
+  font-size: 20px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.about-item {
+  float:left;
+  width: 33%;
+}
+.about-item img{
+  width: 95%;
+  height: auto;
+}
+#about .about-item p{
+  margin-top: -20px;
+  font-family: Merriweather;
+  color:#898989;
+  font-size: 13px;
+  text-align: left;
+  margin-right: 10px ;
+}
+#about .about-item h3{
+  font-family: Montserrat;
+  color: #4d4d4d;
+  font-weight: normal;
+  font-size: 24px;
+}
+#news{
+  float: left;
+  width: 65%;
+  
+}
+#news h2{
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 32px;
+  color: #4d4d4d ;
+}
+#news .news-item .news-date{
+  color:#bfbfbf;
+}
+#news .news-item a{
+  color:steelblue;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+#middle-sections{
+  background-color: #f5f5f5;
+}
+#news .news-item a:hover{
+  color:black;
+
+}
+#news .news-item{
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 5px;
+}
+#news #news-btn a{
+    margin:20px;
+    display: block;
+    width: 115px;
+    height: 25px;
+    background:lightsteelblue;
+    padding: 10px;
+    text-align: center;
+    color: steelblue;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 13px;
+}
+#news #news-btn a:hover{
+  background: steelblue;
+  color:snow;
+}
+#references{
+  float:right;
+  width: 35%;
+  padding-bottom: 65.5px;
+}
+#references h2{
+  margin-top: 36px;
+  margin-bottom: 30px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 32px;
+  color: #4d4d4d ;
+  margin-left: 30px;
+}
+@media only screen and (max-width: 800px) {
+  #references h2{
+    margin-bottom: 50px;
+  }
+}
+#references img{
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+  margin-left: 30px;
+}
+#references p{
+  float:right;
+  width: 60%;
+  margin-top: -120px;
+ 
+}
+#references .ref-author{
+  font-size: 15px;
+ 
+}
+@media only screen and (max-width: 900px) {
+  #references blockquote{
+    margin-bottom: 80px;
+  }
+}
+#references blockquote .ref-author{
+  font-family: Merriweather;
+  font-size: 12px;
+  color: #bfbfbf;
+  margin-bottom: 100px;
+}
+#references blockquote p{
+  font-family: Merriweather;
+  font-size: 15px;
+  color: #898989;
+  margin-bottom: 100px;
+}
+.steps-item {
+  float:left;
+  width: 33%;
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
+#steps .content i{
+  font-size: 60px;
+  color: lightsteelblue;
+  float: left;
+  margin-right: 10px;
+  height: 100%;
+}
+#steps .content h3{
+  font-family: Montserrat;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  font-weight: bold;
+  padding-left: 90px;
+}
+#steps .content p{
+  font-family: Merriweather;
+  font-size: 14px;
+  color: #898989;
+  padding-left: 90px;
+}
+#steps .content a{
+  padding-left: 90px;
+  color: steelblue;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 10px;
+}
+#steps .content a:hover{
+  color:black
+}
+footer{
+  background-color: #303030;
+  width: 100%;
+
+}
+.contact-item{
+  float:left;
+  width: 32%;
+}
+#contact h3{
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 20px;
+  color: white ;
+}
+#contact p{
+  font-family: Merriweather;
+  font-weight: normal;
+  font-size: 13px;
+  color: #898989;
+}
+#contact ul{
+  list-style-type: none;
+  margin-left: -40px;
+}
+#contact ul li a{
+  text-decoration: none;
+  color: steelblue;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 12px;
+}
+#contact ul li a:hover{
+  color:black;
+}
+#contact .contact-item #email-form{
+  margin-top: 25px;
+  width: 100%;
+  border-radius: 5px;
+  width: 200px;
+  height: 25px;
+  font-family: Montserrat;
+  font-weight: normal;
+  text-decoration: none;
+  border-width: 1px;
+}
+#contact .contact-item #submit-btn{
+    margin-top: 5px;
+    display: block;
+    background:steelblue;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 10px;
+    border-radius: 5px;
+    border:none;
+  
+}
+#contact .contact-item #submit-btn:hover{
+  background:white;
+  color: steelblue;
+
+}
+#footer-note{
+  background-color: #202020;
+  font-family: Merriweather;
+  font-size: 14px;
+  color: #898989;
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 1250px) {
+  #footer-note{
+    padding-left: 7px;
+  }
+  .contact-item{
+    padding-left: 7px;
+  }
+}

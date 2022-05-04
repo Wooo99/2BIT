@@ -1,0 +1,321 @@
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: black;
+  color: #555;
+
+}
+
+
+p{
+  font-family: "Verdana";
+}
+#section-topbar {
+  position: fixed;
+  top:0px;
+  left: 0;
+  right: 0;
+  font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#section-topbar img{
+  float:left;
+  width: 90px;
+  height: auto;
+  margin-top: -3px;
+}
+#section-topbar a {
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+#topbar-inner {
+  background: #111;
+  line-height: 0;
+  text-align: right;
+}
+
+#section-topbar ul#nav {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border-right: 2px solid #222;
+  *display: inline;
+}
+
+#section-topbar ul#nav>li {
+  display: block;
+  float: left;
+  width: 100px;
+  height: auto;
+  text-align: center;
+ 
+}
+@media only screen and (max-width: 750px) {
+	#section-topbar ul#nav>li {
+    display: block;
+    float: left;
+    width: 70px;
+    height: auto;
+    text-align: center;
+   
+  }
+}
+#section-topbar ul#nav a {
+  display: block;
+  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 18px 20px 18px 20px;
+  border-left: 1px solid #222;
+  font-size: 15px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 750px) {
+	#section-topbar ul#nav a {
+  padding: 15px 18px 15px 15px;
+  font-size: 10px;
+	}
+}
+
+
+#section-topbar ul#nav a:focus {
+  background: #111;
+  text-decoration: none;
+  border-left: 1px solid #111;
+}
+
+#section-topbar ul#nav a:hover {
+  background: #222;
+  text-decoration: none;
+  border-left: 1px solid #111;
+}
+
+
+#header {
+  background: url(../img/namebackground.jpg);
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center center;
+  background-attachment:local;
+
+}
+
+#header h1 {
+  font-size: 40px;
+  color: white;
+  font-family: "Helvetica";
+}
+#header img {
+  border-radius: 50%;
+  width: 170px;
+  height: auto;
+
+}
+
+#header h3 {
+  font-size: 20px;
+  color: white;
+}
+#resume{
+  padding-top: 50px;
+    margin-top: -50px;
+  background: black;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+#resume h5{
+  font-size:15px;
+  font-family: bold;
+  color:lightgrey
+}
+#resume .education{
+  text-align: center;
+  width: 50%;
+  float:left
+}
+#resume .works{
+  text-align: center;
+  width: 50%;
+  float:right
+}
+
+#intro {
+  margin-top: -20px;
+  background: #111;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+#intro p {
+  text-align: center;
+  font-family: "Verdana";
+  color: lightgrey;
+  margin-bottom: 40px;
+}
+#intro h5{
+  font-family: "Helvetica";
+  font-size:20px;
+  color: snow;
+  text-align: center;
+
+}
+#skillswrap img{
+  width: 100px;
+  height: auto;
+}
+@media only screen and (max-width: 750px) {
+	#skillswrap img{
+    width: 60px;
+    height: auto;
+  }
+}
+
+#intro i {
+  color: white;
+  font-size: 20px;
+  padding-right: 8px;
+  vertical-align: middle;
+}
+#skillswrap h5{
+  font-family: "Helvetica";
+  font-size:17px;
+  color: snow;
+  text-align: center;
+}
+@media only screen and (max-width: 750px) {
+  #skillswrap h5{
+    font-family: "Helvetica";
+    font-size:10px;
+    color: snow;
+    text-align: center;
+  }
+}
+
+#skillswrap .PHP img{
+  padding-top: 27px;
+  margin-bottom: 32px;
+}
+@media only screen and (max-width: 750px) {
+  #skillswrap .PHP img{
+    padding-top: 20px;
+    margin-bottom: 15px;
+  }
+}
+#skillswrap .HTML img{
+  padding-top: 24px;
+  margin-bottom: 25px;
+}
+@media only screen and (max-width: 750px) {
+  #skillswrap .HTML img{
+    padding-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+#skillswrap .Bash img{
+  padding-top: 24px;
+  margin-bottom: 45px;
+}
+@media only screen and (max-width: 750px) {
+  #skillswrap .Bash img{
+    padding-top: 22px;
+    margin-bottom: 20px;
+  }
+}
+#skillswrap .Python img{
+  margin: 6px;
+}
+@media only screen and (max-width: 750px) {
+  #skillswrap .Python img{
+    margin-top: 0px;
+  }
+}
+
+#skillswrap{
+  background: #111;
+  padding-bottom: 60px;
+  padding-top: 10px;
+  color: white;
+  height: 270px;
+}
+@media only screen and (max-width: 750px) {
+  #skillswrap{
+    height: 150px;
+  }
+}
+#skillswrap div{
+  text-align: center;
+  width: 18%;
+  float:left;
+  padding: 5px;
+}
+@media only screen and (max-width: 750px) {
+  #skillswrap div{
+    padding: 3px;
+  }
+}
+
+
+#skillswrap p {
+  color: #505050;
+}
+@media only screen and (max-width: 750px) {
+  #skillswrap p {
+    font-size: 11px;
+  }
+}
+#work{
+  margin:50px
+}
+#work h5{
+  font-family: "Helvetica";
+  font-size:20px;
+  color: snow;
+  text-align: left;
+  padding: 10px;
+}
+
+#work .row h5{
+  font-family: "Helvetica";
+  font-size:20px;
+  color: snow;
+  text-align: center;
+}
+
+#footwrap {
+  background: #2f2f2f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding:50px;
+}
+
+#footwrap p {
+  color: white;
+}
+
+#footwrap h5 {
+  color: white;
+  font-family: "Helvetica";
+  font-size:17px;
+  color: snow;
+  text-align: left;
+}
+
+#footwrap i {
+  padding-right: 8px;
+  color: #1abc9c;
+}
+#contact .socials img{
+  width: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
